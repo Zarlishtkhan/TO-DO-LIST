@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+crossorigin="anonymous" 
+referrerpolicy="no-referrer" />
+<title>To-Do list</title> 
+
+</head>
+<body>
+    <div class="container">
+        <header class="feedback"><b>Write value for an item name</b></header>
+        <form id="itemform">
+            <h3>to-do list</h3>
+            <div class="input-group">
+                <input type="text" id="itemInput" placeholder="name..."/>
+                <button id="add-item" class="btn" type="submit">Add item</button>
+            </div>
+        </form>
+        <div class="item-container">
+        <div class="item-list">
+       <!---- <div class="item">
+            <div class="item-info">
+                <h6 class="item-index">1</h6>
+                <p class="item-name">Item one</p>
+            </div>
+            <div class="item-icons">
+                <i class="far fa-check-circle complete-item"></i>
+                <i class="far fa-edit edit-item"></i>
+                <i class="far fa-times-circle delete-item"></i>
+                
+            </div>
+        </div>-->
+        </div>
+        <button type="button" id="clear-list" class="btn">Clear items</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+
+</html>
